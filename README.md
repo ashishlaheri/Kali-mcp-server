@@ -5,7 +5,7 @@ MCP server exposing Kali pentest tools (`nmap`, `nikto`, `sqlmap`, `wpscan`, `di
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/yourusername/kali-mcp.git
+git clone https://github.com/ashishlaheri/kali-mcp.git
 cd kali-mcp
 docker build -t kali-mcp-server .
 docker run -it -p 8000:8000 kali-mcp-server
